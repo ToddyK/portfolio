@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/accordion.js"></script>
+    <script type="text/javascript" src="js/smooth_scroll.js"></script>
+    <script src="js/jquery.bgswitcher.js"></script>
+    <script src="js/globalNavBtn.js"></script>
+    <script>
+        jQuery(function($) {
+            $('#firstView').bgSwitcher({
+                images: ['img/bg1.jpg','img/bg2.jpg','img/bg3.jpg','img/bg4.jpg','img/bg5.jpg'], // 切り替える背景画像を指定
+                shuffle: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- ヘッダーここから========== -->
+    <header id="header">
+        <p class="header__topTxt">
+            京都市右京区の「まごころ鍼灸整骨院」は、患者さまそれぞれにあった施術を心がけております。
+        </p>
+        <div class="header__wrapper">
+            <a href="" class="header__siteLogoLink">
+               <img src="img/logo.png" alt="" class="header__siteLogoImg linkHover">
+            </a>
+            <nav class="globalNav">
+                <ul class="globalNav__list">
+                    <li class="globalNav__item">
+                        <a href="#about" class="globalNav__link linkHover">
+                            ABOUT
+                            <span class="globalNav__description">当院について</span>
+                        </a>
+                    </li>
+                    <li class="globalNav__item">
+                        <a href="#menu" class="globalNav__link linkHover">
+                            MENU
+                            <span class="globalNav__description">施術メニュー</span>
+                        </a>
+                    </li>
+                    <li class="globalNav__item">
+                        <a href="#staff" class="globalNav__link linkHover">
+                            STAFF
+                            <span class="globalNav__description">スタッフ</span>
+                        </a>
+                    </li>
+                    <li class="globalNav__item">
+                        <a href="#access" class="globalNav__link linkHover">
+                            ACCESS
+                            <span class="globalNav__description">アクセス</span>
+                        </a>
+                    </li>
+                    <li class="globalNav__item">
+                        <a href="#recruit" class="globalNav__link linkHover">
+                            RECRUIT
+                            <span class="globalNav__description">求人情報</span>
+                        </a>
+                    </li>
+                    <li class="globalNav__item globalNav__item--blog">
+                        <a href="" class="globalNav__link linkHover">BLOG<span class="globalNav__description">ブログ</span>
+                    </a>
+                    </li>
+                    <li class="telAdress">
+                        <span class="telAdress__description">お電話でのご予約・お問い合わせ</span>
+                        TEL.<p class="telAdress__num">075-406-0551</p>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="headerNav">
+                <ul class="headerNav__list">
+                    <li class="headerNav__item">
+                        <a href="" class="headerNav__link headerNav__link--tel">
+                            ご予約
+                        </a>
+                    </li>
+                    <li class="headerNav__item headerNav__item--exColor">
+                        <a href="" class="headerNav__link headerNav__link--blog">
+                            ブログ
+                        </a>
+                    </li>
+                    <li class="headerNav__item js-globalNavBtn">
+                        <span class="headerNav__globalNavBtn"></span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- ヘッダーここまで========== -->
+
+    <!-- ファーストビューここから========== -->
+    <article id="firstView">
+        <div class="firstView__inner"></div>
+        <a href="#about" class="firstView__scroll">
+                SCROLL
+        </a>
+    </article>
+    <!-- ファーストビューここまで========== -->
+
+    <!-- ABOUTコンテンツここから========== -->
+    <article id="about">
+        <h1 class="contentTitle">
+            ABOUT
+            <span class="contentTitle__description">当院について</span>
+            <hr class="contentTitle__line">
+        </h1>
+        <div class="about__content">
+            <div class="about__img1"></div>
+            <div class="aboutTxt1">
+                <h2 class="aboutTxt1__title">
+                    「あって良かった」から
+                    <span class="aboutTxt1__titleTop">「ないと困る」整骨院へ</span>
+                </h2>
+                <p class="aboutTxt1__txt">患者さんにとって最良の治療を提供する為に絶対に妥協しない。</p>
+                <p class="aboutTxt1__txt">それが僕たちの「まごころ」です。</p>
+                <br>
+                <p class="aboutTxt1__txt">患者さんの訴えに真摯に耳を傾け信頼できる仲間達と共に、患者さんにとっての最良の道を探っていきたい。</p>
+                <br>
+                <p class="aboutTxt1__txt">一期一会の出会いから、安心してすこやかな毎日を過ごすことのできるよう、皆様と一緒になって歩んでいきたいと思います。</p>
+            </div>
+            <div class="about__img2"></div>
+            <div class="aboutTxt2">
+                <ul class="aboutTxt2__list">
+                    <li class="aboutTxt2__item">まごころ鍼灸整骨院では、患者様お一人おひとりに合わせた施術を行っています。</li>
+                    <li class="aboutTxt2__item">鍼灸治療や訪問マッサージも行っておりますので、お気軽にご相談ください。</li>
+                    <li class="aboutTxt2__item">多数の治療スタッフが在籍しております！</li>
+                    <li class="aboutTxt2__item">待ち時間が少なく、お忙しい方でもスケジュールの合間にご利用いただけます。</li>
+                    <li class="aboutTxt2__item">充実した手技治療！</li>
+                    <li class="aboutTxt2__item">各種健康取扱い・労災・生活保護・交通事故取扱い</li>
+                </ul>
+            </div>
+        </div>
+    </article>
+    <!-- ABOUTコンテンツここまで========== -->
+    
+        <!-- MENUコンテンツここから========== -->
+    <article id="menu">
+        <h1 class="contentTitle">
+            MENU
+            <span class="contentTitle__description">施術メニュー</span>
+            <hr class="contentTitle__line">
+        </h1>
+        <ul class="menu__List">
+
+            <li class="menu__Item">
+                <div class="accordion js-accordion">
+                    <h2 class="accordion__title">
+                        柔道整復治療
+                        <span class="accordion__description">JUDO THERAPY</span>
+                    </h2>
+                    <div class="accordion__switch">
+                        <span class="accordion__LRline"></span>
+                        <span class="accordion__TBline"></span>
+                    </div>
+                </div>
+                <div class="accordion__inner">
+                    <div class="inner">
+                        <div class="inner__img inner__img--1"></div>
+                        <div class="inner__content">
+                            <p class="inner__txt">骨折、脱臼、捻挫、打撲、肉離れのケガに対して、手技療法や物理療法、固定法を用いて適切な療法、処置を行います。</p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="menu__Item">
+                <div class="accordion js-accordion">
+                    <h2 class="accordion__title">
+                        鍼灸治療
+                        <span class="accordion__description">ACUPUNCTURE AND MOXIBUSTION THERAPY</span>
+                    </h2>
+                    <div class="accordion__switch">
+                        <span class="accordion__LRline"></span>
+                        <span class="accordion__TBline"></span>
+                    </div>
+                </div>
+                <div class="accordion__inner">
+                    <div class="inner">
+                        <div class="inner__img inner__img--2"></div>
+                        <div class="inner__content">
+                            <p class="inner__txt">
+                                当院では熟練した国家資格所有者が治療を行いますので安心して治療を受けていただけます。
+                            </p>
+                            <p class="inner__txt">
+                                鍼灸治療は、深部にある筋肉のコリや緊張に直接アプローチできます。鍼灸治療に不安をお持ちの方が多いようですが、使用する鍼は髪の毛ほどの太さで、殆ど痛みを感じることはありません。
+                            </p>
+                            <p class="inner__txt">
+                                ストレスによる不調の改善も鍼灸の得意分野です。家事や仕事による環境疲労が症状を引き起こしている場合が多く、寝つきや寝起きが悪い、食欲がない、気分が喪失するなど、病院に行くまではないけど絶不調という人が多くなっています。
+                            </p>
+                            <p class="inner__txt">
+                                そんな身体の不具合を整え、元気を取り戻す。病気を予防し病気になりにくい身体をつくる。これからの社会が求める医療として鍼灸は大きな可能性を秘めています。
+                            </p>
+                            <br>
+                            <h2 class="inner__title">
+                                単刺法
+                            </h2>
+                            <p class="inner__txt">
+                                当院の基本的な鍼灸治療になります。1本の鍼を用いて、身体の不調の原因となっている筋肉のポイントに直接アプローチしていき、疼痛緩和し、血流改善を目的とします。
+                            </p>
+                            <br>
+                            <h2 class="inner__title">
+                                低周波通電法（パルス鍼）
+                            </h2>
+                            <p class="inner__txt">
+                                いわゆる電気鍼と呼ばれるもので、刺した鍼に電極を取り付け低周波で通電する方法です。鍼に電気を流すことにより、筋肉中の神経を刺激し筋収縮を起こします。そして、感覚神経を刺激して筋肉の深部に電気刺激を与えることを目的とします。
+                            </p>
+                            <br>
+                            <p class="inner__txt">
+                                次の病気については、医師の同意があれば健康保険が使えます。
+                            </p>
+                            <br>
+                            <p class="inner__txt">
+                                <span class="inner__highlight">
+                                    神経痛
+                                </span>
+                                たとえば坐骨神経痛
+                            </p>
+                            <p class="inner__txt">
+                                <span class="inner__highlight">
+                                    リウマチ
+                                </span>
+                                急性または慢性で各関節が腫れて痛むもの
+                            </p>
+                            <p class="inner__txt">
+                                <span class="inner__highlight">
+                                    腰痛症
+                                </span>
+                                慢性の腰痛やギックリ腰など
+                            </p>
+                            <p class="inner__txt">
+                                <span class="inner__highlight">
+                                    五十肩
+                                </span>
+                                肩の関節が痛く腕が挙がらないもの
+                            </p>
+                            <p class="inner__txt">
+                                <span class="inner__highlight">
+                                    頸腕症候群
+                                </span>
+                                頚から肩または腕にかけてシビレて痛むもの
+                            </p>
+                            <p class="inner__txt">
+                                <span class="inner__highlight">
+                                    頸椎捻挫後遺症
+                                </span>
+                                頚の外傷やムチウチ症など
+                            </p>
+                            <br>
+                            <p class="inner__txt">
+                                医師の紹介も当院からいたしますので、お気軽にご相談ください。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="menu__Item">
+                <div class="accordion js-accordion">
+                    <h2 class="accordion__title">
+                        訪問リハビリ
+                        <span class="accordion__description">VISITING REHABILITATION</span>
+                    </h2>
+                    <div class="accordion__switch">
+                        <span class="accordion__LRline"></span>
+                        <span class="accordion__TBline"></span>
+                    </div>
+                </div>
+                <div class="accordion__inner">
+                    <div class="inner">
+                        <div class="inner__img inner__img--3"></div>
+                        <div class="inner__content">
+                            <p class="inner__txt">
+                                当院では治療やリハビリ、マッサージに行きたいけれど歩行が困難で思うように動けない方に対して、国家資格者であるスタッフがご自宅や入居施設にお伺いし治療を致します。
+                            </p>
+                            <br>
+                            <p class="inner__txt inner__txt--indent">
+                                <span class="inner__listMark"></span>
+                                医師の同意のもと健康保険でご利用になれます。
+                            </p>
+                            <p class="inner__txt inner__txt--indent">
+                                <span class="inner__listMark"></span>
+                                介護保険ではなく、健康（医療）保険を使うので介護サービスには影響しません。
+                            </p>
+                            <p class="inner__txt inner__txt--indent">
+                                <span class="inner__listMark"></span>
+                                ご自宅や入居施設に訪問し、マッサージが受けられます。
+                            </p>
+                            <br>
+                            <br>
+                            <h2 class="inner__title">
+                                訪問マッサージの始め方
+                            </h2>
+                            <h3 class="inner__numberTitle">
+                                1. お約束の日時に患者様のもとへお伺いします。
+                            </h3>
+                            <p class="inner__txt">
+                                はじめにご本人またはご家族からお話を伺い、簡単な問診をいたします。その後、体験マッサージを受けて頂きます。 今後の訪問マッサージをするかどうかはそれからゆっくりご検討ください。
+                            </p>
+                            <h3 class="inner__numberTitle">
+                                2. 同意書のご依頼
+                            </h3>
+                            <p class="inner__txt">
+                                健康保険を使った訪問マッサージ（はり灸）のご利用は医師に同意書という書類を書いてもらわねばなりません。かかりつけの先生がいない、または無理な場合は当院からご紹介いたします。同意書の用紙はコチラで用意いたします。
+                            </p>
+                            <br>
+                            <h2 class="inner__title">
+                                料金（1日の施術料金）
+                            </h2>
+                            <p class="inner__txt">
+                                <span class="inner__highlight">1割負担</span>
+                                約200～600円
+                            </p>
+                            <p class="inner__txt">
+                                <span class="inner__highlight">2割負担</span>
+                                約400～1,200円
+                            </p>
+                            <p class="inner__txt">
+                                <span class="inner__highlight">3割負担</span>
+                                約600～1,700円
+                            </p>
+                            <br>
+                            <h2 class="inner__title">
+                                訪問リハビリ対象者
+                            </h2>
+                            <p class="inner__txt inner__txt--indent">
+                                <span class="inner__listMark"></span>
+                                脳梗塞や脳出血の後遺症がある方。
+                            </p>
+                            <p class="inner__txt inner__txt--indent">
+                                <span class="inner__listMark"></span>
+                                病院でリハビリをしていたが、期間を超えてしまったからと断られてしまった方。
+                            </p>
+                            <p class="inner__txt inner__txt--indent">
+                                <span class="inner__listMark"></span>
+                                介護保険の訪問リハビリを使いたいが、点数が足りない方。
+                            </p>
+                            <p class="inner__txt inner__txt--indent">
+                                <span class="inner__listMark"></span>
+                                もっとリハビリをしたい方。
+                            </p>
+                            <p class="inner__txt inner__txt--indent">
+                                <span class="inner__listMark"></span>
+                                筋力の低下で色んな動作が出来なくなってきた方（廃用性症候群）。
+                            </p>
+                            <p class="inner__txt inner__txt--indent">
+                                <span class="inner__listMark"></span>
+                                しばらくの間入院し、退院したら歩けなくなって立てない方。
+                            </p>
+                            <p class="inner__txt inner__txt--indent">
+                                <span class="inner__listMark"></span>
+                                寝たきりにはなりたくない方。
+                            </p>
+                            <p class="inner__txt inner__txt--indent">
+                                <span class="inner__listMark"></span>
+                                腰や膝が変形し、痛くて杖や押し車がないと歩けない方。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="menu__Item">
+                <div class="accordion js-accordion">
+                    <h2 class="accordion__title">
+                        交通事故治療
+                        <span class="accordion__description">TRAFFIC ACCIDENT THERAPY</span>
+                    </h2>
+                    <div class="accordion__switch">
+                        <span class="accordion__LRline"></span>
+                        <span class="accordion__TBline"></span>
+                    </div>
+                </div>
+                <div class="accordion__inner">
+                    <div class="inner">
+                        <div class="inner__img inner__img--4"></div>
+                        <div class="inner__content">
+                            <p class="inner__txt">
+                                むち打ちによる頸部捻挫などが代表される交通事故のケガや、その時は無症状であっても後になってから痛みやシビレが出るなど思わぬところに障害が出てきます。
+                            </p>
+                            <p class="inner__txt">
+                                当院では「手技療法」「物理療法」「鍼治療」と様々な治療形態の中で最適な治療を選ぶことができ、1日でも早く日常生活に復帰できるよう心がけています。
+                            </p>
+                            <br>
+                            <h2 class="inner__title">
+                                治療の流れ
+                            </h2>
+                            <h3 class="inner__numberTitle">
+                                1. 問診表
+                            </h3>
+                            <p class="inner__txt">
+                                問診表にご記入いただきます。
+                            </p>
+                            <h3 class="inner__numberTitle">
+                                2. 問診
+                            </h3>
+                            <p class="inner__txt">
+                                現在の症状、治療に対してのご希望などをお伺いします。
+                            </p>
+                            <h3 class="inner__numberTitle">
+                                3. 電気治療
+                            </h3>
+                            <p class="inner__txt">
+                                低周波の電気治療を行う場合があります。
+                            </p>
+                            <h3 class="inner__numberTitle">
+                                4. 治療開始
+                            </h3>
+                            <p class="inner__txt">
+                                お一人おひとりにあった治療を行います。
+                            </p>
+                            <h3 class="inner__numberTitle">
+                                5. 治療計画のご提案
+                            </h3>
+                            <p class="inner__txt">
+                                患者様の状態に合わせた治療内容をご提案いたします。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="menu__Item">
+                <div class="accordion js-accordion">
+                    <h2 class="accordion__title accordion__title--cost">
+                        ストレッチ骨盤整体
+                        <span class="accordion__description">STRETCH PELVIS BODYWORK</span>
+                    </h2>
+                    <div class="accordion__switch">
+                        <span class="accordion__LRline"></span>
+                        <span class="accordion__TBline"></span>
+                    </div>
+                </div>
+                <div class="accordion__inner">
+                    <div class="inner">
+                        <div class="inner__img inner__img--5"></div>
+                        <div class="inner__content">
+                            <p class="inner__txt">
+                                当院で行う整体は世間一般にあるただボキボキ音を鳴らすだけの治療とは異なります。
+                            </p>
+                            <p class="inner__txt">
+                                もともと可動域の少ない骨盤周辺の筋肉を緩めることが大切で、指だけではアプローチしにくい筋肉に対して独自のストレッチでケアしていきます。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="menu__Item">
+                <div class="accordion js-accordion">
+                    <h2 class="accordion__title accordion__title--cost">
+                        美顔鍼
+                        <span class="accordion__description">FACIAL ACUPUNCTURE</span>
+                    </h2>
+                    <div class="accordion__switch">
+                        <span class="accordion__LRline"></span>
+                        <span class="accordion__TBline"></span>
+                    </div>
+                </div>
+                <div class="accordion__inner">
+                    <div class="inner">
+                        <div class="inner__img inner__img--6"></div>
+                        <div class="inner__content">
+                            <p class="inner__txt">
+                                顏にあるツボに直接鍼をして刺激する方法です。美顔鍼では鍼をする刺激によってタンパク質を活性化し、血流を促進させリンパの流れを改善します。
+                            </p>
+                            <p class="inner__txt">
+                                当院では美顔鍼専用の鍼を使用しておりますので、施術の際に痛みは殆ど感じることなく安心して治療を受けられます。
+                            </p>
+                            <br>
+                            <h2 class="inner__meritTitle">
+                                薬品を使用しない
+                            </h2>
+                            <p class="inner__txt">
+                                技術によって強制的に代謝を良くするのではなく、身体が持つ自然な新陳代謝を促進します。
+                            </p>
+                            <br>
+                            <h2 class="inner__meritTitle">
+                                効果の持続力が高い
+                            </h2>
+                            <p class="inner__txt">
+                                施術回数や間隔によっても異なりますが、継続することによって更に良い肌の状態をキープでき、根本から肌質改善が望めます。
+                            </p>
+                            <br>
+                            <h2 class="inner__meritTitle">
+                                身体の内側から健康になる
+                            </h2>
+                            <p class="inner__txt">
+                                鍼による刺激が自律神経を介して全身に伝わることから、シミやシワなどの改善、リフトアップ、眼精疲労、頭痛、耳鳴り、めまいなどの症状が改善されます。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="menu__Item">
+                <div class="accordion js-accordion">
+                    <h2 class="accordion__title accordion__title--cost">
+                        ヘッドフェイシャルマッサージ
+                        <span class="accordion__description">HEAD FACIAL MASSAGE</span>
+                    </h2>
+                    <div class="accordion__switch">
+                        <span class="accordion__LRline"></span>
+                        <span class="accordion__TBline"></span>
+                    </div>
+                </div>
+                <div class="accordion__inner">
+                    <div class="inner">
+                        <div class="inner__img inner__img--7"></div>
+                        <div class="inner__content">
+                            <p class="inner__txt">
+                                当院のヘッドフェイシャルマッサージは、美容目的だけではなく花粉症などのアレルギー症状の改善に効果が認められます。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="menu__Item">
+                <div class="accordion js-accordion">
+                    <h2 class="accordion__title accordion__title--cost">
+                        最新超音波治療器
+                        <span class="accordion__description">ULTRASONIC THERAPY</span>
+                    </h2>
+                    <div class="accordion__switch">
+                        <span class="accordion__LRline"></span>
+                        <span class="accordion__TBline"></span>
+                    </div>
+                </div>
+                <div class="accordion__inner">
+                    <div class="inner">
+                        <div class="inner__img inner__img--8"></div>
+                        <div class="inner__content">
+                            <p class="inner__txt">
+                                超音波とは人間には聞こえないほどの細かい周波数で振動する音波のことです。</p>
+                            <p class="inner__txt">
+                                特徴として、高い除痛効果、指では届きづらい深部へのミクロマッサージ、立体加温効果による細胞の活性化の3つの作用があります。スポーツ外傷などの急性疾患から慢性疾患まで幅広く使用できます。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </article>
+    <!-- MENUコンテンツここまで========== -->
+
+    <!-- STAFFコンテンツここから========== -->
+    <article id="staff">
+        <h1 class="contentTitle">
+            STAFF
+            <span class="contentTitle__description">スタッフ</span>
+            <hr class="contentTitle__line">
+        </h1>
+        <div class="staff__wrapper">
+            <div class="staff__img staff__img--1"></div>
+            <div class="staff__content">
+                <h2 class="staff__name">山下 達也</h2>
+                <p class="staff__txt">
+                    初めまして、「まごころ鍼灸整骨院」院長の山下です。当院では、手技療法を中心とした治療を行います。患者様の抱える痛み、悩みにまごころ込めて向き合っていきたいと思います。
+                </p>
+                <p class="staff__txt">
+                    今お困りの症状で、どの医療機関を行けばいいかご不明な方、一度まごころ鍼灸整骨院にご相談ください。当院が患者様の心のよりどころであれるよう、いつでも笑顔でお待ちしております
+                </p>
+            </div>
+        </div>
+        <div class="staff__wrapper staff__wrapper--reverse">
+            <div class="staff__img staff__img--2"></div>
+            <div class="staff__content staff__content--reverse">
+                <h2 class="staff__name">吉田 翔</h2>
+                <p class="staff__txt">
+                    初めまして！よく喋る、声の大きい、メガネの吉田で、「よっさん」と呼ばれています！明るくお迎えし、元気になって帰っていただきます！右京区は嵯峨野で育ちましたので、地元ネタ大歓迎です！
+                </p>
+                <p class="staff__txt">
+                    よろしくお願いします！
+                </p>
+            </div>
+        </div>
+        <div class="staff__wrapper">
+            <div class="staff__img staff__img--3"></div>
+            <div class="staff__content">
+                <h2 class="staff__name">小川 武臣</h2>
+                <p class="staff__txt">
+                    まごころのストレッチマンこと小川武臣(たつおみ)です！
+                </p>
+                <p class="staff__txt">
+                    高校まで、白球追う球児でした！専門学校のときから、「支える」立場として、様々なスポーツを見てきました！卒業後、国公立唯一の体育大学である鹿児島県の鹿屋体育大学へ進学し、知識・経験を重ね、地元の京都に帰ってきました。スポーツ選手のコンディショニングはもちろんのこと、一般の方のダイエットやセルフケアもアドバイスしています！ご来院の際は気軽にお声かけください&#9834;
+                </p>
+            </div>
+        </div>
+        <div class="staff__wrapper staff__wrapper--reverse">
+            <div class="staff__img staff__img--4"></div>
+            <div class="staff__content staff__content--reverse">
+                <h2 class="staff__name">川勝 康司</h2>
+                <p class="staff__txt">
+                    はじめまして！まごころのバスケットマン、川勝です！
+                </p>
+                <p class="staff__txt">
+                    なかなかの不思議キャラで謎な場面が多々ありますが、自分なりに患者様に楽しんでもらおうと必死で頑張ってます！ 患者様が喜ぶ顔が何より好きです！たまに外で見かけることがありますが気軽に声かけてください！よろしくお願いします！
+                </p>
+            </div>
+        </div>
+        <div class="staff__wrapper">
+            <div class="staff__img staff__img--5"></div>
+            <div class="staff__content">
+                <h2 class="staff__name">西谷 真奈</h2>
+                <p class="staff__txt">
+                    押忍！スポーツ大好き体育会系女子です。バレーボール、体操、水泳、柔道などやっていました。今はキックボクシングにはまっています！他には料理やお菓子作りも好きでよくやっています。おしゃべり大好きなので気軽に話しかけていただけると嬉しいです。
+                </p>
+                <p class="staff__txt">
+                    少しでも皆様のお力になれればと思っています。よろしくお願いします！
+                </p>
+            </div>
+        </div>
+        <div class="staff__wrapper staff__wrapper--reverse">
+            <div class="staff__img staff__img--6"></div>
+            <div class="staff__content staff__content--reverse">
+                <h2 class="staff__name">木村 美苑</h2>
+                <p class="staff__txt">
+                    午前の受付をしているママさんバレーボーラー木村です(^^&#9834;
+                </p>
+                <p class="staff__txt">
+                    お話しする事が大好きなので一緒に楽しくお話しして下さい！買い物をするのに梅津近辺をよく自転車で走り回ってますので見かけましたら「美苑ちゃーん」と気軽に呼んでください！
+                </p>
+            </div>
+        </div>
+        <div class="staff__wrapper">
+            <div class="staff__img staff__img--7"></div>
+            <div class="staff__content">
+                <h2 class="staff__name">小川 香織</h2>
+                <p class="staff__txt">
+                    午前の受付をしております小川と申します。いつも皆様と楽しくおしゃべりさせて頂くのがとても楽しみです。特に嵐の大ファンですので、嵐ファンの方、是非一緒にお話ししましょう！
+                </p>
+                <p class="staff__txt">
+                    少しでも症状が良くなるお手伝いができるよう、ハピネスな笑顔でお迎えしたいと思います。
+                </p>
+            </div>
+        </div>
+        <div class="staff__wrapper staff__wrapper--reverse">
+            <div class="staff__img staff__img--8"></div>
+            <div class="staff__content staff__content--reverse">
+                <h2 class="staff__name">山﨑 さえ子</h2>
+                <p class="staff__txt">
+                    受け付けをしています山﨑です。学生さんからご年配の方々まで幅広い年齢層の患者様と毎日楽しくお話をさせていただき本当に嬉しく思っております。頼りになる先生方の施術はもちろん、明るく面白いスタッフばかりなのでいっぱい笑って少しでも元気になって帰っていただければと思っております。
+                </p>
+                <p class="staff__txt">
+                    元気な笑顔と挨拶で皆様をお迎えいたします。
+                </p>
+            </div>
+        </div>
+    </article>
+    <!-- STAFFコンテンツここまで========== -->
+
+    <!-- ACCESSコンテンツここから========== -->
+    <article id="access">
+        <h1 class="contentTitle">
+            ACCESS
+            <span class="contentTitle__description">アクセス</span>
+            <hr class="contentTitle__line">
+        </h1>
+        <div class="access__wrapper">
+            <div class="access__description">
+                <h2 class="access__name">
+                    まごころ鍼灸整骨院
+                </h2>
+                <p class="access__adress">
+                    615-0907 京都府京都市右京区梅津北浦町4 サンライブ-II 1F
+                </p>
+                <span class="access__requireTime">
+                    阪急電車「松尾大社駅」徒歩10分<br>
+                    京都市バス「西浦町」徒歩1分
+                </span>
+            </div>
+            
+            <div class="accessTable">
+                <div class="accessTable__dataWrapper">
+                    <div class="accessTable__data">受付時間</div>
+                    <div class="accessTable__data">月</div>
+                    <div class="accessTable__data">火</div>
+                    <div class="accessTable__data">水</div>
+                    <div class="accessTable__data">木</div>
+                    <div class="accessTable__data">金</div>
+                    <div class="accessTable__data">土</div>
+                    <div class="accessTable__data">日</div>
+                </div>
+                <div class="accessTable__dataWrapper">
+                    <div class="accessTable__data">9:00 〜 13:00</div>
+                    <div class="accessTable__data">○</div>
+                    <div class="accessTable__data">○</div>
+                    <div class="accessTable__data">○</div>
+                    <div class="accessTable__data">○</div>
+                    <div class="accessTable__data">○</div>
+                    <div class="accessTable__data">8時から</div>
+                    <div class="accessTable__data">休</div>
+                </div>
+                <div class="accessTable__dataWrapper">
+                    <div class="accessTable__data">16:00 〜 20:00</div>
+                    <div class="accessTable__data">○</div>
+                    <div class="accessTable__data">○</div>
+                    <div class="accessTable__data">休</div>
+                    <div class="accessTable__data">○</div>
+                    <div class="accessTable__data">○</div>
+                    <div class="accessTable__data">休</div>
+                    <div class="accessTable__data">休</div>
+                </div>
+            </div>
+        </div>
+        <iframe class="googleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.124374775571!2d135.69743311524041!3d35.003591580357806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600107147099bedf%3A0x8bebcb2eaac1bea9!2z44G-44GU44GT44KN6Y2854G45pW06aqo6Zmi!5e0!3m2!1sja!2sjp!4v1559051121814!5m2!1sja!2sjp" frameborder="0" style="border:0" allowfullscreen></iframe><!--        google map埋め込み -->
+    </article>
+    <!-- ACCESSコンテンツここまで========== -->
+
+    <!-- RECRUITコンテンツここから========== -->
+    <article id="recruit">
+        <h1 class="contentTitle">
+            RECRUIT
+            <span class="contentTitle__description">求人情報</span>
+            <hr class="contentTitle__line">
+        </h1>
+        <div class="recruit__content">
+            <div class="recruit__titleWrapper">
+                <h2 class="recruit__title">
+                    理念
+                    <span class="recruit__description">
+                        PHILOSOPHY
+                    </span>
+                </h2>
+            </div>
+            <div class="recruit__txtWrapper">
+                <p class="recruit__txt">
+                    今、整骨院業界は保険制度の改定や競合院の乱立により、厳しい時代となりつつあります。
+                </p>
+                <p class="recruit__txt">
+                    そのような中、まごころ鍼灸整骨院ではスタッフ全員が気持ちにゆとりを持ち、長きに渡り地域の方々の力になっていただけるよう、福利厚生の充実を図るなど最良の職場環境作りに取り組んでおります。
+                </p>
+                <p class="recruit__txt">
+                    あなたの未来を素晴らしいものにしたいという思いで、接骨院の先生というだけでなく、いち社会人として魅力のある人になっていただけるよう尽力いたします。
+                </p>
+            </div>
+        </div>
+        <div class="recruit__content">
+            <div class="recruit__titleWrapper">
+                <h2 class="recruit__title">
+                    本質
+                    <span class="recruit__description">
+                        ESSENTIAL
+                    </span>
+                </h2>
+            </div>
+            <div class="recruit__txtWrapper">
+                <p class="recruit__txt">
+                    まごころ鍼灸整骨院で働いて下さる方には、まず基本的な手技をしっかり覚えていただけるよう時間をかけて指導いたします。その後は株式会社すこやかの独自の治療技術やコミュニケーション能力を身につけ、治療家としてのスキルを磨いてもらいます。
+                </p>
+                <p class="recruit__txt">
+                    また、整骨院運営に不可欠な知識としての「数字」にも触れてもらいます。
+                </p>
+                <p class="recruit__txt">
+                    数字＝お金ではなく、数字は現状をしっかり把握し正しい行動をとる為のツールだということを学んでいただきます。
+                </p>
+                <p class="recruit__txt">
+                    自己を高めるという事が身の回りの方々の笑顔につながると信じています。
+                </p>
+            </div>
+        </div>
+        <div class="recruit__content">
+            <div class="recruit__titleWrapper">
+                <h2 class="recruit__title">
+                    将来
+                    <span class="recruit__description">
+                        FUTURE
+                    </span>
+                </h2>
+            </div>
+            <div class="recruit__txtWrapper">
+                <p class="recruit__txt">
+                    将来に不安があると感じておられる方もいらっしゃるかも知れませんが、まごころ鍼灸整骨院で働きながら自分の本当にやりたい事を見つけていっていただければ、私にとっても喜ばしい事であると考えています。
+                </p>
+                <p class="recruit__txt">
+                    当社のスタッフ全員が出来る限り安全な将来設計ができるように最大限の支援をしていきます。
+                </p>
+                <p class="recruit__txt">
+                    当院で永くキャリアを積んでいただく方には各種保険を完備し、安心して長期に渡って仕事をしていただけますし、ステップアップを希望される方には、分院長への昇進なども提案させていただきます。
+                </p>
+                <p class="recruit__txt">
+                    また、完全に独立し開業を目指す方にも、これまでの経験を活かし心からのアドバイスをいたします。
+                </p>
+                <p class="recruit__txt">
+                    当社に関わっていただく方、全員の幸せを約束いたします。
+                </p>
+            </div>
+        </div>
+        <div class="recruit__content">
+            <div class="recruit__titleWrapper">
+                <h2 class="recruit__title">
+                    募集要項
+                    <span class="recruit__description">
+                        EMPLOYMENT OFFERS
+                    </span>
+                </h2>
+            </div>
+            <table class="recruitTable">
+                <tr class="recruitTable__row">
+                    <th class="recruitTable__heading">
+                        募集職種
+                    </th>
+                    <td class="recruitTable__data">
+                        <ul class="recruitTable__list">
+                            <li class="recruitTable__item">
+                                &#91;1&#93; ･･･ 柔道整復師
+                            </li>
+                            <li class="recruitTable__item">
+                                &#91;2&#93; ･･･ 鍼灸師
+                            </li>
+                            <li class="recruitTable__item">
+                                &#91;3&#93; ･･･ 専門学生
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="recruitTable__row">
+                    <th class="recruitTable__heading">
+                        雇用形態
+                    </th>
+                    <td class="recruitTable__data">
+                        正社員 / アルバイト
+                    </td>
+                </tr>
+                <tr class="recruitTable__row">
+                    <th class="recruitTable__heading">
+                        勤務時間
+                    </th>
+                    <td class="recruitTable__data">
+                        <ul class="recruitTable__list">
+                            <li class="recruitTable__item">
+                                &#91;1&#93; ･･･ 9:00 〜 13:00 / 16:00 〜 20:00（月曜日〜金曜日）
+                            </li>
+                            <li class="recruitTable__item">
+                                &#91;2&#93; ･･･ 9:00 〜 13:00（水曜日）
+                            </li>
+                            <li class="recruitTable__item">
+                                &#91;3&#93; ･･･ 8:00 〜 13:00（土曜日）
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="recruitTable__row">
+                    <th class="recruitTable__heading">
+                        休日
+                    </th>
+                    <td class="recruitTable__data">
+                        水曜日午後 / 土曜日午後 / 日曜日 / 祝日 / 夏季休暇 / 年末年始休暇
+                    </td>
+                </tr>
+                <tr class="recruitTable__row">
+                    <th class="recruitTable__heading">
+                        給与
+                    </th>
+                    <td class="recruitTable__data">
+                        <ul class="recruitTable__list">
+                            <li class="recruitTable__item">
+                                &#91;1&#93; ･･･ 27.5万 〜 40万 + 歩合（試用期間1〜3か月20万）
+                            </li>
+                            <li class="recruitTable__item">
+                                &#91;2&#93; ･･･ 27.5万 〜
+                            </li>
+                            <li class="recruitTable__item">
+                                &#91;3&#93; ･･･ 時給1,000円 〜
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="recruitTable__row">
+                    <th class="recruitTable__heading">
+                        昇給賞与
+                    </th>
+                    <td class="recruitTable__data">
+                        能力、業績により変動
+                    </td>
+                </tr>
+                <tr class="recruitTable__row" border="1">
+                    <th class="recruitTable__heading">
+                        待遇
+                    </th>
+                    <td class="recruitTable__data">
+                        社会保険 / 雇用保険 / 労災保険 / 制服貸与 / 交通費支給
+                    </td>
+                </tr>
+                <tr class="recruitTable__row">
+                    <th class="recruitTable__heading">
+                        選考方法
+                    </th>
+                    <td class="recruitTable__data">
+                        面接
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </article>
+    <!-- RECRUITコンテンツここまで========== -->
+
+    <!-- footerここから========== -->
+    <footer id="footer">
+        <a href="#" class="footer__topLink linkHover">
+            ページの先頭へ
+        </a>
+        <div class="footer__contentWrapper">
+            <div class="footer__siteLinkWrapper">
+                <a href="#" class="footer__siteLink linkHover">
+                    <img src="img/logo.png" alt="" class="footer__siteLinkImg">
+                </a>
+                <a href="#" class="footer__siteLink linkHover">
+                    <img src="img/sukoyakaSekkotsuinLogo.png" alt="" class="footer__siteLinkImg">
+                </a>
+            </div>
+            <small class="footer__copyright">
+                © 2016 株式会社すこやか
+            </small>
+        </div>
+    </footer>
+    <!-- footerここまで========== -->
+</body>
+
+</html>
